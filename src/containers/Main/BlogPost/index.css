@@ -1,0 +1,33 @@
+.blogPost {
+  width: 90%;
+  margin: auto;
+  min-width: 600px;
+}
+.blogHeading {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px;
+}
+.blogContent{
+  white-space:pre-line;
+}
+.blogPhoto {
+  width: 100%;
+}
+.blogBody {
+  padding: 50px;
+}
+.blogCategories {
+  display: flex;
+  justify-content: center;
+}
+.blogCategory {
+  padding: 7px 15px;
+  font-size: 0.8rem;
+  background-color: var(--color-5);
+  border-radius: 50px;
+  margin-right: 10px;
+  color: white;
+}
